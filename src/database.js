@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const URI = 'mongodb://localhost/mern-crud-test';
+const URI = 'mongodb+srv://badi:iq42v2-RfMrCupK@freedb-ebadilla10.ffucz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 mongoose.connect(URI)
   .then(db => console.log('Db is connected'))
