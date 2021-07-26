@@ -17,9 +17,11 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "mongoose": "*",
     "mongoo": "*",
-    "morgan": "^1.9.0"
+    "mongoose": "^5.13.3",
+    "morgan": "^1.10.0",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -27,8 +29,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "nodemon": "^1.17.5",
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
+    "react": "^18.0.0-alpha-ed6c091fe-20210701",
+    "react-dom": "^18.0.0-alpha-ed6c091fe-20210701",
     "webpack": "^4.11.1",
     "webpack-cli": "^3.0.3"
   }
