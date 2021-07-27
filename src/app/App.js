@@ -6,11 +6,11 @@ import FacebookLogin from 'react-facebook-login';
 function App() {
 
   const responseGoogle = (response) => {
-    console.log(response);
+    alert("Logueado con Google");
   };
 
   const responseFacebook = (response) => {
-    console.log(response);
+    alert("Logueado con Facebook");
   };
   
   return (
